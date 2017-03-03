@@ -1,2 +1,1 @@
-# Spring2017-Calendar
-Senior project
+# CS410-16ProjectBlue

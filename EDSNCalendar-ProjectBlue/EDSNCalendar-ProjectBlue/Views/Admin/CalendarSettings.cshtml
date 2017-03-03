@@ -1,0 +1,149 @@
+﻿
+@{
+    ViewBag.Title = "CalendarSettings";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Calendar Settings</h2>
+<div>Use this tool to change the settings for <b>all</b> distributed EDSN calendars.</div>
+<div>Warning, any settings specified in the widget creator for a specific calendar will override these settings.</div>
+    <hr />
+@using (Html.BeginForm("EditCalendarSettings", "Admin", FormMethod.Post, new {id = "CalenderSettingsForm"}))
+{
+
+<div class="form-group row">
+    <div class="form-group row">
+        <div class="col-xs-6">
+            <div>
+                <label>Filter bar</label><select name="Filterbar" class="chosen-select">
+                                            @if (ViewBag.FilterEnabled == "1")
+                                            {
+                                                <option selected="selected">Enabled</option>
+                                                <option>Disabled</option>
+                                            }
+                                            else
+                                            {
+                                                <option>Enabled</option>
+                                                <option selected="selected">Disabled</option>
+                                            }                                           
+                                         </select>
+            </div>
+            <div>
+                <div><label>Global HTML Header</label></div>
+                <div><textarea class="form-control" form="CalenderSettingsForm" name="headercode" rows="12">@ViewBag.GlobalHeader</textarea></div>
+            </div>
+        </div>
+    </div>
+    <div class="col-xs-1">
+        <label>Available views</label>
+    </div>
+    <div class="col-xs-6">
+        <table style="width:100%">
+    <tr>
+        <th>&nbsp</th>
+        <th>Enabled</th>
+        <th>Default</th>
+    </tr>
+    <tr>
+        <th>Month</th>
+        <th>@if (ViewBag.MonthEnabled == "1")
+        {
+            <input type="checkbox" name="MonthE" checked />
+        }
+        else
+        {
+            <input type="checkbox" name="MonthE" />
+        }
+        </th>
+        <th>@if (ViewBag.DefaultView == "Month")
+        {
+            <input type="radio" name="Default" value="Month" checked/>
+        }
+        else
+        {
+            <input type="radio" name="Default" value="Month" />
+        }
+        </th>
+    </tr>
+    <tr>
+        <th>Posterboard</th>
+        <th>@if (ViewBag.PosterEnabled == "1")
+        {
+            <input type="checkbox" name="PosterboardE" checked/>
+        }
+        else
+        {
+            <input type="checkbox" name="PosterboardE" />
+        }
+        </th>
+        <th>@if (ViewBag.DefaultView == "Poster")
+        {
+            <input type="radio" name ="Default" value="Poster" checked/>
+        }
+        else
+        {
+            <input type="radio" name="Default" value="Poster" />
+        }
+        </th>
+    </tr>
+    <tr>
+        <th>List</th>
+        <th>@if (ViewBag.ListEnabled == "1")
+        {
+            <input type="checkbox" name="ListE" checked/>
+        }
+        else
+        {
+            <input type="checkbox" name="ListE" />
+        }
+        </th>
+        <th>@if (ViewBag.DefaultView == "List")
+        {
+            <input type="radio" name="Default" value="List" checked/>
+        }
+        else
+        {
+            <input type="radio" name ="Default" value="List"/>
+        }
+        </th>
+    </tr>
+</table>
+        </div>
+</div>
+<div> <label>Preselected calendar filters</label></div>
+    int j = 0;
+    for (int i = 0; i < ViewBag.PropertyTypes.Count; i++)
+    {
+        <div class="form-group">
+            <div class="col-xs-6">
+                <label>@ViewBag.PropertyTypes[i].Name</label>
+                @Html.ListBox(
+                             (string)ViewBag.PropertyTypes[i].Name,
+                             ViewBag.PropertyLists[i] as MultiSelectList,
+                             new
+                             {
+                                 multiple = "multiple",
+                                 @data_placeholder = "Chose " + ViewBag.PropertyTypes[i].Name + "s...",
+                                 @name = ViewBag.PropertyTypes[i].Name
+                             }
+                         )
+            </div>
+        </div>
+        j = i + 1;
+    }
+    if ((j % 2) == 1)
+    {
+        <div class="form-group">
+            <div class="col-xs-6">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+    }
+    <hr />
+    <input type="submit" />
+
+}

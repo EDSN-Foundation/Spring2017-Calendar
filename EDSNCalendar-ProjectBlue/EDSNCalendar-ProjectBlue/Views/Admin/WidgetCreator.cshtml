@@ -1,0 +1,152 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script>
+    function input() {
+        var text = "<script class=\"edsn-widget-placeholder\" data-widget=\"edsn_superwidget\">\n(function(){var d=document,s=d.createElement(\'script\'),\ni=\'edsn-script\';if(d.getElementById(i))return;s.async=1;\ns.id=i;s.src=\'[future server info here]';\nd.getElementsByTagName(\'head\')[0].appendChild(s);})();";
+        document.forms.form1.texta1.value = text;
+    }
+</script>
+
+@using (Html.BeginForm("EditWidgetGen", "Admin", FormMethod.Post, new { id = "WidgetGenForm", name = "WidgetGenForm" }))
+{
+    <h2>Widget Creator</h2>
+    <div>Use this tool to generate codes snippets you can add to <b>an external website</b> to embed new calendars and widgets.</div>
+    <div>The options listed here will override any global options selected.</div>
+    <hr />
+    <div class="form-group row">
+        <div class="col-xs-6">
+            <div><label>Filter bar</label>     <select name="Filterbar" class="chosen-select"><option>Enabled</option><option>Disabled</option></select></div>
+            <div>
+                <div><label>Custom HTML Header (overrides global)</label></div>
+                <div><textarea class="form-control" form="CalenderSettingsForm" name="headercode" rows="12"></textarea></div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-xs-1">
+            <label>Available views</label>
+        </div>
+        <div class="col-xs-6">
+            <table style="width:100%">
+                <tr>
+                    <th>&nbsp</th>
+                    <th>Enabled</th>
+                    <th>Default</th>
+                </tr>
+                <tr>
+                    <th>Month</th>
+                    <th>
+                        @if (ViewBag.MonthEnabled == "1")
+                        {
+                            <input type="checkbox" name="MonthE" checked />
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="MonthE" />
+                        }
+                    </th>
+                    <th>
+                        @if (ViewBag.DefaultView == "Month")
+                {
+                            <input type="radio" name="Default" value="Month" checked />
+                        }
+                        else
+                        {
+                            <input type="radio" name="Default" value="Month" />
+                        }
+                    </th>
+                </tr>
+                <tr>
+                    <th>Posterboard</th>
+                    <th>
+                        @if (ViewBag.PosterEnabled == "1")
+                        {
+                            <input type="checkbox" name="PosterboardE" checked />
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="PosterboardE" />
+                        }
+                    </th>
+                    <th>
+                        @if (ViewBag.DefaultView == "Poster")
+                        {
+                            <input type="radio" name="Default" value="Poster" checked />
+                        }
+                        else
+                        {
+                            <input type="radio" name="Default" value="Poster" />
+                        }
+                    </th>
+                </tr>
+                <tr>
+                    <th>List</th>
+                    <th>
+                        @if (ViewBag.ListEnabled == "1")
+                        {
+                            <input type="checkbox" name="ListE" checked />
+                        }
+                        else
+                        {
+                            <input type="checkbox" name="ListE" />
+                        }
+                    </th>
+                    <th>
+                        @if (ViewBag.DefaultView == "List")
+                        {
+                            <input type="radio" name="Default" value="List" checked />
+                        }
+                        else
+                        {
+                            <input type="radio" name="Default" value="List" />
+                        }
+                    </th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    int j = 0;
+    <div><label>Preselected calendar filters</label></div>
+    for (int i = 0; i < ViewBag.PropertyTypes.Count; i++)
+    {
+        <div class="form-group">
+            <div class="col-xs-6">
+                <label>@ViewBag.PropertyTypes[i].Name</label>
+                @Html.ListBox(
+                             (string)ViewBag.PropertyTypes[i].Name,
+                             ViewBag.PropertyLists[i] as MultiSelectList,
+                             new
+                             {
+                                 multiple = "multiple",
+
+                                 @data_placeholder = "Chose " + ViewBag.PropertyTypes[i].Name + "s..."
+                             }
+                         )
+            </div>
+        </div>
+        j = i + 1;
+    }
+    if ((j % 2) == 1)
+    {
+        <div class="form-group">
+            <div class="col-xs-6">
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+            </div>
+        </div>
+    }
+}
+<div class="form-group">
+    <form name='form1'>
+        <hr />
+        <input onclick='input()' type='button' value='Submit' id='button'><br>
+        <div><label>Paste this code onto your site:</label></div>
+        <div><textarea name='texta1' rows="15" cols="400" ></textarea></div>
+    </form>
+</div>

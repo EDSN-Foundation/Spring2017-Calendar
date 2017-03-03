@@ -1,0 +1,17 @@
+﻿
+@model EDSNCalendar_ProjectBlue.Event.Event
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Confirm Deletion Action</h2>
+<hr />
+
+<p> Are you sure you want to deactivate the event titled: @Model.Title? </p>
+
+<p>Warning: If you perform this action the only way to retrieve this data will be to manually activate the event in the database!</p>
+<div class="btn-group">
+    @Html.ActionLink("Delete Event", "DeleteEvent", "Admin", new { id = Model.EventId }, new {@class="btn btn-default", @role="button" })
+    @Html.ActionLink("Cancel", "EventDetails", "Admin", new { id = Model.EventId }, new { @class="btn btn-default", @role="button" })
+</div>

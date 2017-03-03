@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "ConfirmRemoveUser";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ConfirmRemoveUser</h2>
+<hr />
+<p> Are you sure you want to remove the user named: @ViewBag.UserName ? </p>
+<div class="btn-group">
+    @Html.ActionLink("Remove User", "RemoveUser", "Admin", new { id = ViewBag.UserId }, new {@class="btn btn-default", @role="button" })
+    @Html.ActionLink("Cancel", "UserList", "Admin", new
+{
+    @class = "btn btn-default",
+    @role = "button"
+})
+</div>

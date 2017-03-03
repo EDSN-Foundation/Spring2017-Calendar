@@ -1,0 +1,128 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#E8E8E8;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Admin Page Styles*/
+/*div.row-event-list {
+    position: absolute;
+    left: 50px;
+}
+button.event-list {
+    width:450px;
+}*/
+.padding-left {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+/*Index Page*/
+div#DetailsPopUp {
+    display:none;
+    width:750px;
+    height: 450px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    margin: -225px 0 0 -375px;
+    border: 1px solid #555;
+    border-radius: 3px 3px;
+    background-color: white;
+}
+h2#detailsHead {
+    color:#00cc00;
+}
+
+small#detailsTimePlace {
+    color:#00cc00;
+}
+/*Poster Event*/
+div.poster-event {
+    background: #fff9f0;
+    border: 1px solid #fff9f0;
+    padding:5px;
+    margin-right: 5px !important;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+    min-height: 220px;
+    max-height: 350px;
+}
+
+h3.poster-event {
+    color:#0077b3;
+}
+
+span.poster-event {
+    color:#555;
+}
+
+div.Tags {
+    margin-left: 48px;
+}
+
+div.lower-row {
+    margin-left: 83px;
+}
+div.form-group.lower-row {
+    margin-left: 58px;
+}
+/* Submit Event Form*/
+input#popUpSubmit {
+    position: relative;
+    left:12px;
+    top: 10px;
+}
+/* Admin Area*/
+div.admin-sidebar {
+    background-color:#33506e !important;
+    color:white;
+    min-height: 94.5vh;
+    border-right: 3px solid #33506e;
+    max-width: 300px;
+    margin-left: -30px;
+}
+
+ul.admin-sidebar {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+a.admin-sidebar {
+    width: 100%;
+    border-color: #33506e !important;
+    border-radius: 0px !important;
+    background-color: #33506e !important;
+}
+
+a.admin-sidebar:active {
+    color: #df8700 !important;
+    border-color: #33506e !important;
+}
+
+a.admin-sidebar:hover {
+    color: #df8700 !important;
+    border-color: #33506e !important;
+}

@@ -1,0 +1,67 @@
+﻿
+@model List<EDSNCalendar_ProjectBlue.Event.Event>
+@{
+  ViewBag.Title = "Index";
+  Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+@*@using (Html.BeginForm("EventList", "Admin", FormMethod.Get))
+{
+    @Html.DropDownList("Published", new SelectList(ViewBag.PublishedStatusList, "Value", "Text", ViewBag.Selecteditem), 
+    new { onchange = "form.submit();" })
+}*@
+
+<div>
+    <br />
+    @Html.ActionLink("All(" + ((int)ViewBag.TotalEvents) + ")", "EventList", "Admin", new { Published = 0 }, null) | 
+    @Html.ActionLink("Published(" + ((int)ViewBag.PublishedEvents) + ")", "EventList", "Admin", new { Published = 2 }, null) | 
+    @Html.ActionLink("Submitted(" + ((int)ViewBag.SubmittedEvents) + ")", "EventList", "Admin", new { Published = 1 }, null)
+</div>
+<hr />
+<input type="button" class="btn btn-primary" id="AdminSubmitEvent" value="Submit Event" />
+<table class="table table-hover table-condensed">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Submitted Date</th>
+            <th>Published Date</th>
+            <th>Event Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (EDSNCalendar_ProjectBlue.Event.Event ev in Model)
+        {
+        <tr>
+            <td>@Html.ActionLink(ev.Title, "EventDetails", "Admin", new { id = ev.EventId }, null)</td>
+            <td>@ev.SubmitterName</td>
+            <td>@ev.PostDate.ToShortDateString()</td>
+            <td>
+                @if (ev.IsPublished.Equals(false))
+                {@Html.ActionLink("Publish Event", "ConfirmPublish", "Admin", new { id = ev.EventId }, null)}
+                else {@ev.PublishDate.ToShortDateString()}
+            </td>
+            <td>@ev.Date</td>
+        </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+    @*
+            <div class="list-group">
+                @foreach (EDSNCalendar_ProjectBlue.Event.Event ev in Model)
+                {
+                <button type="button" class="event-list list-group-item">
+                    @ev.Title     -     @Html.ActionLink("Details", "EventDetails", "Admin", new { id = ev.EventId}, null)
+
+                </button>
+                <button type="button" class="event-list list-group-item">
+                    @if (ev.IsPublished.Equals(false))
+                    {@Html.ActionLink("Publish Event", "ConfirmPublish", "Admin", new { id = ev.EventId }, null)}
+                </button>
+                }
+            </div>
+        *@

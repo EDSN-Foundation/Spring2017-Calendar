@@ -1,0 +1,52 @@
+﻿
+@model EDSNCalendar_ProjectBlue.Event.Event
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<script>
+    function showEditEvent() {
+        document.getElementById("EditEventForm").style.visibility = "visible";
+    }
+    
+  </script>
+
+<div class="row">
+    <h2>@Model.Title</h2>
+    <h5>Post Date: @Model.PostDate</h5>
+    @if (Model.IsPublished == true)
+    {
+        <h5>Publish Date: @Model.PublishDate</h5>
+    }   
+    @if (Model.Image != null)
+    {
+        <img src="data:image;base64,@System.Convert.ToBase64String(Model.Image)" />
+    }
+<div class="btn-group">
+    @if (Model.IsPublished.Equals(false))
+    {@Html.ActionLink("Publish Event", "ConfirmPublish", "Admin", new { id = Model.EventId }, new
+{
+    @class = "btn btn-default",
+    @role = "button"
+})}
+
+    @Html.ActionLink("Delete Event", "ConfirmDelete", "Admin", new{id = Model.EventId}, new
+{
+  @class="btn btn-default",
+  @role="button"
+})
+
+    @Html.ActionLink("Back to List", "EventList", "Admin", null, new
+{
+  @class="btn btn-default",
+  @role="button"
+})
+    <input type="button" id="editeventbtn" value="Edit Event" class="btn btn-default"/ onclick="showEditEvent()">
+
+</div>
+
+
+</div>
+<div >
+    @Html.Partial("EditEvent")
+</div>

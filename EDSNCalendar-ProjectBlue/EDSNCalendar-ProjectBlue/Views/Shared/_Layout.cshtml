@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link href="../../Content/themes/base/jquery-ui.css" rel="stylesheet" />
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryui")
+    <link href="../../Content/chosen.css" rel="stylesheet" />
+    <link href="../../Content/font-awesome.css" rel="stylesheet" />
+    <script src="../../Scripts/chosen.jquery.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Example Website", "Index", new
+           {
+               area = ""
+           }, new
+           {
+               @class = "navbar-brand"
+           })
+            </div>
+        </div>
+    </div>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+        <script>
+
+ 
+
+    </script>
+    
+
+    @RenderSection("scripts", required: false)
+    <script src="../../Scripts/moment.min.js" language="javascript" type="text/javascript"></script>
+    <script src="../../Scripts/fullcalendar.js" language="javascript" type="text/javascript"></script>
+    <script src="../../Scripts/site.js" language="javascript" type="text/javascript"></script>
+    <script src="../../Scripts/PosterView.js" language="javascript" type="text/javascript"></script>
+    <script src="../../Scripts/Listeners.js" language="javascript" type="text/javascript"></script>
+    
+</body>
+</html>

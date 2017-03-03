@@ -1,0 +1,81 @@
+﻿
+<head>
+    <style type="text/css">
+        #Text1 {
+            width: 111px;
+            height: 19px;
+            margin-left: 21px;
+        }
+        #eventTitle {
+            width: 432px;
+        }
+        #submitPopUp {
+            height: 499px;
+        }
+        #Select1 {
+            width: 286px;
+        }
+        #Organizer {
+            margin-right: 25px;
+        }
+        #PhoneNum {
+            margin-right: 26px;
+        }
+        #Free {
+            margin-right: 30px;
+        }
+        #Cost {
+            height: 19px;
+            width: 73px;
+        }
+    </style>
+</head>
+@{
+    ViewBag.Title = "Home Page";
+}
+@if(ViewBag.HeaderHTML != null)
+{
+    if(!string.IsNullOrEmpty(ViewBag.HeaderHTML))
+    {
+        @Html.Raw(ViewBag.HeaderHTML)
+    }
+}
+<hr />
+@Html.Partial("SubmitEvent")
+<button ID="submitButton" class="submit-event btn btn-primary" type="button">Submit Event</button>
+@if (ViewBag.FilterEnabled == "1")
+{
+    <div class="calendar-filter row">
+        @{
+          for (int i = 0; i < ViewBag.PropertyTypes.Count; i++)
+          {
+              string grid = (i < 2) ? "col-xs-5" : "col-xs-3";
+              string lowerRow = (i > 2) ? "lower-row" : "";
+                <div class="form-group @ViewBag.PropertyTypes[i].Name @grid @lowerRow">
+                    <label for="@ViewBag.PropertyTypes[i].Name">@ViewBag.PropertyTypes[i].Name</label>
+                    @Html.ListBox(
+                (string)ViewBag.PropertyTypes[i].Name,
+                ViewBag.PropertyLists[i] as MultiSelectList,
+                new
+                {
+                    multiple = "multiple",
+                    @class = "chosen-select",
+                    @data_placeholder = "Chose " + ViewBag.PropertyTypes[i].Name + "..."
+                }
+            )
+                </div>
+            }
+        }
+    </div>
+}
+<hr />
+<div class="calendar" data-events="@ViewBag.PublishedEvents" data-properties="@ViewBag.PropertyEventList"></div>
+<div class="poster" data-events="@ViewBag.PublishedEvents" data-properties="@ViewBag.PropertyEventList">
+    <hr />
+    <div class="row">
+        <div class="poster-events col-xs-12"></div>
+    </div>
+</div>
+@Html.Partial("_EventDetails")
+
+

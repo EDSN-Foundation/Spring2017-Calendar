@@ -1,0 +1,212 @@
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\csc.exe
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\vbc.exe
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\VBCSCompiler.exe
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.dll.config
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.pdb
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Antlr3.Runtime.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.SqlServer.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Newtonsoft.Json.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Owin.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Helpers.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Mvc.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Optimization.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Razor.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Razor.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\WebGrease.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Helpers.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Mvc.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Optimization.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Razor.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Razor.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Antlr3.Runtime.pdb
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Newtonsoft.Json.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.SqlServer.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.csprojResolveAssemblyReference.cache
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.dll
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.pdb
+C:\Users\Adam\cs410Proj\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\MySql.Data.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\csc.exe
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\System.Collections.Immutable.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\System.Reflection.Metadata.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\vbc.exe
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\VBCSCompiler.exe
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\VBCSCompiler.exe.config
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.dll.config
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.pdb
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Antlr3.Runtime.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.SqlServer.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Core.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Cookies.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Facebook.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Google.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.OAuth.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Twitter.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Web.Infrastructure.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\MySql.Data.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Newtonsoft.Json.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Owin.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Helpers.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Mvc.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Optimization.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Razor.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Deployment.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Razor.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\WebGrease.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Helpers.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Mvc.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Optimization.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Razor.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Deployment.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Razor.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Antlr3.Runtime.pdb
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Newtonsoft.Json.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.SqlServer.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Core.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Facebook.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Cookies.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.OAuth.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Google.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Twitter.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.dll
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.pdb
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\csc.exe
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\vbc.exe
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\VBCSCompiler.exe
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.dll.config
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EDSNCalendar-ProjectBlue.pdb
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Antlr3.Runtime.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.SqlServer.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\MySql.Data.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Newtonsoft.Json.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Owin.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Helpers.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Mvc.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Optimization.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Razor.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Razor.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\WebGrease.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Helpers.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Mvc.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Optimization.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.Razor.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\System.Web.WebPages.Razor.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Antlr3.Runtime.pdb
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Newtonsoft.Json.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\EntityFramework.SqlServer.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.csprojResolveAssemblyReference.cache
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.pdb
+D:\GitHub\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\obj\Debug\EDSNCalendar-ProjectBlue.csprojResolveAssemblyReference.cache
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\MySql.Data.Entity.EF6.dll
+C:\Users\Kiyic\Documents\Development Projects\CS410-16ProjectBlue\EDSNCalendar-ProjectBlue\EDSNCalendar-ProjectBlue\bin\MySql.Web.dll

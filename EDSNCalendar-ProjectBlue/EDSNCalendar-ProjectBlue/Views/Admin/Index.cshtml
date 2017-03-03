@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h1>Information Overview</h1>
+<hr />
+<div class="list-group">
+    <li class="list-group-item">
+      Number of Published Events: <span class="badge">@ViewBag.PublishedEvents</span>
+    </li>
+    <li class="list-group-item">
+      Number of Submitted Events waiting to be Published: <span class="badge">@ViewBag.SubmittedEvents</span> 
+    </li>
+
+</div>
+
+

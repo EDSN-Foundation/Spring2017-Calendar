@@ -1,0 +1,53 @@
+﻿@model List<EDSNCalendar_ProjectBlue.Property.Property>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<nav class="breadcrumb">
+    @foreach (EDSNCalendar_ProjectBlue.Property.PropertyType pt in ViewBag.PropertyTypes)
+    {        
+        if (ViewBag.SelectedPropertyType == pt.PropertyTypeId)
+        {
+            @Html.ActionLink(pt.Name, "Properties", "Admin", new { id = pt.PropertyTypeId }, new { @class = "breadcrumb-item active", @role = "span" })
+        }
+        else
+        {
+            @Html.ActionLink(pt.Name, "Properties", "Admin", new { id = pt.PropertyTypeId }, new { @class = "breadcrumb-item", @role = "link" })
+        }
+        <p style="display:inline">&nbsp;</p>
+
+        
+    }
+        @using (Html.BeginForm("AddNewPropertyType", "Admin", FormMethod.Post)){
+
+        @Html.TextBox("NewPropertyType")
+        <input type ="submit" value ="Add Property Type" />}
+</nav>
+
+<hr />
+@if (ViewBag.SelectedPropertyType != null)
+{
+    <table class="table table-condensed">
+        <thead>
+            <tr>
+                <th>Title</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (EDSNCalendar_ProjectBlue.Property.Property p in Model)
+            {
+                <tr>
+                    <td>@p.Name</td>
+                </tr>
+            }
+        </tbody>
+        @using (Html.BeginForm("AddNewProperty", "Admin", FormMethod.Post)){
+
+        <input type="hidden" name="ida" value="@ViewBag.SelectedPropertyType" />
+        @Html.TextBox("NewProperty")
+        <input type ="submit" value ="Add Property" />
+        }
+    </table>
+
+}

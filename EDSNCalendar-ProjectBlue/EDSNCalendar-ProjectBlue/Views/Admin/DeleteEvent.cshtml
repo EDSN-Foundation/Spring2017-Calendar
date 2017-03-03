@@ -1,0 +1,11 @@
+﻿
+@model EDSNCalendar_ProjectBlue.Event.Event
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<p> The following event was deleted successfully!</p>
+<p>@Model.Title</p>
+
+@Html.ActionLink("Back to List", "EventList", "Admin", null, new {@class="btn btn-default",    @role ="button"})

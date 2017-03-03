@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "RemoveUser";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2> The following user was removed successfully!</h2>
+<hr/>
+<p>@ViewBag.UserName</p>
+
+@Html.ActionLink("Back to List", "UserList", "Admin", new { @class = "btn btn-default", @role = "button" })
