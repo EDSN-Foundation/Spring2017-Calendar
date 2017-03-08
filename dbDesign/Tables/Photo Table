@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS PHOTO(
         Event varchar(64),
         EventType varchar(64),
         Link varchar(256) NOT NULL
-        )";
+        );
