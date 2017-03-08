@@ -12,4 +12,5 @@ BEGIN
 END;
 
 
-
+--Uncomment the following line for testing purposes
+--Exec usp_SelectDistinctPhoto @rowID = 2
