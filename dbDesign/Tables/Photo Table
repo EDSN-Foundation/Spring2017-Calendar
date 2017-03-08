@@ -1,0 +1,10 @@
+
+CREATE TABLE IF NOT EXISTS PHOTO(
+        PhotoID int(16) NOT NULL,
+        Title varchar(64),
+        Author varchar(64),
+        Date DATE,
+        Event varchar(64),
+        EventType varchar(64),
+        Link varchar(256) NOT NULL
+        )";
