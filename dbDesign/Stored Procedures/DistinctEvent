@@ -1,0 +1,14 @@
+
+
+
+
+CREATE PROCEDURE usp_DistinctEvent
+
+AS
+BEGIN
+    SELECT DISTINCT Event 
+    FROM PHOTO
+END;
+
+
+
