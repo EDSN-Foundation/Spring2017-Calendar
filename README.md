@@ -1,4 +1,4 @@
-# CS410-16ProjectBlue
+# CS410-16ProjectBlue CS498 Team Omega
 
 <hr>
 <b>Synopsis</b>
