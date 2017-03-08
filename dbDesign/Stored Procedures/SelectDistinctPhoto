@@ -1,0 +1,15 @@
+
+
+CREATE PROCEDURE usp_SelectDistinctPhoto
+
+@rowID nvarchar(50)
+
+AS
+BEGIN
+    SELECT * 
+    FROM PHOTO 
+    WHERE PhotoID = @rowID;
+END;
+
+
+
