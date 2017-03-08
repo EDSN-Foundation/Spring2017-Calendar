@@ -1,4 +1,8 @@
+
+
 CREATE TABLE IF NOT EXISTS TAG(
         PhotoID int(16) NOT NULL,
         Tag varchar(64)
         );
+
+
